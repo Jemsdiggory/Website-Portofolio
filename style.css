@@ -48,7 +48,7 @@ a {
 
 .navbar div {
   display: flex;
-  gap: 24px; /* atur jaraknya */
+  gap: 24px; 
 }
 
 .navbar a {
@@ -91,7 +91,7 @@ a {
 
 .hero-overlay {
   height: 100%;
-  background: rgba(1, 4, 18, 0.6); /* overlay */
+  background: rgba(1, 4, 18, 0.6); 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,7 +109,7 @@ a {
 }
 
 .highlight-name {
-  color: #22d3ee;          /* warna accent */
+  color: #22d3ee;          
   font-size: 20px;
 }
 
@@ -130,8 +130,8 @@ section {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* vertical center */
-  align-items: center;     /* horizontal center */
+  justify-content: center; 
+  align-items: center;     
   text-align: center;
   gap: 16px;
   background: rgba(0, 0, 0, 0.5);
@@ -160,17 +160,17 @@ section {
   margin-top: 30px;
   max-width: 700px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  grid-template-columns: repeat(2, 1fr); 
   gap: 24px;
 }
 
 
-/* satu skill */
+
 .skill {
   margin-bottom: 18px;
 }
 
-/* header skill */
+
 .skill-header {
   display: flex;
   justify-content: space-between;
@@ -179,7 +179,7 @@ section {
   color: #e5e7eb;
 }
 
-/* bar */
+
 .skill-bar {
   background: #1e293b;
   border-radius: 999px;
@@ -187,7 +187,7 @@ section {
   height: 10px;
 }
 
-/* isi bar */
+
 .skill-fill {
   height: 100%;
   border-radius: 999px;
@@ -195,7 +195,7 @@ section {
   animation: load 1.2s ease forwards;
 }
 
-/* ukuran tiap skill */
+
 .skill-fill.unity { width: 50%; }
 .skill-fill.html  { width: 50%; }
 .skill-fill.css   { width: 35%; }
@@ -204,14 +204,14 @@ section {
 .skill-fill.capcut { width: 85%; }
 .skill-fill.illustrator { width: 20%; }
 
-/* animasi */
+
 @keyframes load {
   from {
     width: 0;
   }
 }
 
-/* biar di hp, jadi 1 kolom aja */
+
 @media (max-width: 640px) {
   .skills {
     grid-template-columns: 1fr;
@@ -261,7 +261,7 @@ section {
 }
 
 .text-gallery {
-  color: #ffffff;          /* warna accent */
+  color: #ffffff;          
   font-size: 20px;
 }
 
@@ -298,7 +298,7 @@ section {
   z-index: 999;
 }
 
-/* efek muncul pas di klik */
+
 .lightbox:target {
   display: flex;
 }
@@ -309,7 +309,7 @@ section {
   border-radius: 12px;
 }
 
-/* tombol close nya */
+
 .lightbox .close {
   position: absolute;
   top: 20px;
@@ -319,22 +319,22 @@ section {
   text-decoration: none;
 }
 
-/* settings card project game */
+
 
 .card-link {
   display: flex;
   flex-direction: column;
-  align-items: center;   /* center horizontal */
-  text-align: center;    /* center text */
-  text-decoration: none; /* hilang underline */
+  align-items: center;   
+  text-align: center;   
+  text-decoration: none; 
 }
 
 .card-link h3 {
-  color: #ffffff; /* judul */
+  color: #ffffff; 
 }
 
 .card-link p {
-  color: #cbd5f5; /* deskripsi */
+  color: #cbd5f5; 
 }
 
 .card-link img {
@@ -351,25 +351,24 @@ section {
 
 
 
-/* section 2d */
-/* sembunyiin checkbox */
+
 #toggle-artist {
   display: none;
 }
 
-/* konten tambahan disembunyiin */
+
 .artist-more {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.6s ease;
 }
 
-/* pas di klik */
+
 #toggle-artist:checked ~ .artist-more {
-  max-height: 3000px; /* angka gede */
+  max-height: 3000px; 
 }
 
-/* tombol */
+
 .read-more-btn {
   display: inline-block;
   margin: 30px auto 0;
@@ -383,13 +382,13 @@ section {
   transition: 0.3s ease;
 }
 
-/* hover */
+
 .read-more-btn:hover {
   background: darkred;
   color: #020617;
 }
 
-/* ganti teks */
+
 .read-more-btn .less {
   display: none;
 }
@@ -405,7 +404,7 @@ section {
 
 
 
-/* experience section */
+
 
 .experience {
   background: #020617;
@@ -417,7 +416,7 @@ section {
   font-family: "JetBrains Mono", monospace;
 }
 
-/* wrapper */
+
 .experience-list {
   max-width: 800px;
   margin: 0 auto;
@@ -425,7 +424,7 @@ section {
   padding-left: 30px;
 }
 
-/* garis timeline */
+
 .experience-list::before {
   content: "";
   position: absolute;
@@ -436,7 +435,7 @@ section {
   background: #1e293b;
 }
 
-/* item */
+
 .experience-item {
   position: relative;
   margin-bottom: 40px;
@@ -444,7 +443,7 @@ section {
   gap: 25px;
 }
 
-/* titik */
+
 .exp-dot {
   width: 14px;
   height: 14px;
@@ -454,7 +453,7 @@ section {
   flex-shrink: 0;
 }
 
-/* card */
+
 .exp-content {
   background: #020617;
   border: 1px solid #1e293b;
@@ -487,6 +486,7 @@ section {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+
 
 
 
