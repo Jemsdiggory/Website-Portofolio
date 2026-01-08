@@ -30,13 +30,18 @@
 <section id="about" class="about">
   <h2>About Me</h2>
   <p>
-    My name is <span class="highlight-name">Kahlaa Aulia Jemima</span>, I'm a Game Technology student at Politeknik Negeri Media Kreatif Jakarta, currently focused on building my skills in game programming, especially using Unity.
+    My name is <span class="highlight-name">Kahlaa Aulia Jemima</span>, I'm a Game Technology student at Politeknik Negeri Media Kreatif Jakarta,
   </p>
-  <p>Most of the games I upload in itch.io are team projects where I mainly take the role of programmer. I enjoy experimenting with mechanics, gameplay systems, 
-    and sometimes help out with video editing or design too. Everything you see here is part of my learning journey. I hope you enjoy playing these games as much 
-    as I enjoyed creating (and debugging!) them. 
+  <p>with a strong focus on game programming using Unity.
+
+  Most of my projects on itch.io are team-based, where I primarily work as a programmer, experimenting with gameplay mechanics and systems. I also 
+  have experience in front-end web development (HTML, CSS, JavaScript) and occasionally contribute to video editing and design.
+
+  Everything here reflects my learning journey. 
+  <p>If you have feedback, ideas, or collaboration opportunities, feel free to reach out—I'm always happy to 
+  talk about game and web development! </p>
   </p>
-  <p>Got feedback, ideas, or want to collaborate? Feel free to reach out, I'm always up for chatting about game development!</p>
+  
   <a href="https://drive.google.com/drive/folders/1kt9f7LqDxekNFbaxsKN0Zo3FNiLahmDa?usp=sharing">E-Certif</a>
 
   <h2>Technical Skills</h2>
@@ -108,6 +113,16 @@
         <span>20%</span>
       </div>
       <div class="skill-bar">
+        <div class="skill-fill javascript"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <div class="skill-header">
+        <span>Javascript</span>
+        <span>20%</span>
+      </div>
+      <div class="skill-bar">
         <div class="skill-fill illustrator"></div>
       </div>
     </div>
@@ -132,6 +147,8 @@
     <img src="assets/images/game1/iconvitadulu.jpg" alt="Vita-Dulu">
     <h3>Vita-Dulu</h3>
     <p>PC and Mobile Platforms.</p>
+    <p>#gameprogrammer</p>
+
 
     <!-- game 2 -->
     <a href="https://jemsdiggory.itch.io/rise-against" 
@@ -141,6 +158,7 @@
     <img src="assets/images/game2/icongame2.png" alt="Rise Against">
     <h3>Rise Against</h3>
     <p>PC Platforms.</p>
+    <p>#gameprogrammer</p>
   
     <!-- game 3 -->
     <a href="https://jemsdiggory.itch.io/lets-explore" 
@@ -150,6 +168,7 @@
     <img src="assets/images/game3/icongame3.png" alt="Let's Explore">
     <h3>Let's Explore</h3>
     <p>PC Platforms.</p>
+    <p>#gameprogrammer</p>
 
     <!-- game 4 -->
     <a href="https://jemsdiggory.itch.io/tugas-game-fps" 
@@ -159,6 +178,17 @@
     <img src="assets/images/game4/icongame4.png" alt="FPS Game Assignment">
     <h3>FPS Game Assignment</h3>
     <p>Web game.</p>
+    <p>#gameprogrammer</p>
+
+    <!-- game 5 -->
+    <a href="https://dycals.itch.io/congklak-adventures" 
+    target="_blank" 
+    class="card card-link">
+
+    <img src="assets/images/game5/icongame5.png" alt="Traditional Games">
+    <h3>Congklak Adventures</h3>
+    <p>PC Platforms</p>
+    <p>#gameartist</p>
 
 </a>
 
@@ -167,12 +197,48 @@
   </div>
 </section>
 
+<!-- section front end -->
+<section id="frontend" class="frontend">
+  <h2>Front-End Projects</h2>
+  <p class="section-desc">
+    A collection of websites I built and deployed as part of my learning journey in front-end development.
+  </p>
+
+  <div class="frontend-grid">
+
+    <!-- project 1 -->
+    <div class="web-card">
+      <div class="web-preview">
+        <img src="assets/images/web1.png" alt="Web Gift Project">
+      </div>
+
+      <div class="web-content">
+        <h3>MLBB Vote Web Login</h3>
+        <p class="tech">HTML • CSS • JavaScript</p>
+        <p class="desc">
+          A responsive game-inspired website built using HTML, CSS, and JavaScript. Features include interactive hero cards, 
+          role-based filtering, login flow, and dynamic UI animations
+        </p>
+
+        <div class="web-links">
+          <a href="https://molevotedummy.netlify.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/Jemsdiggory/Molevote-Dummy" target="_blank" class="btn outline">Source Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
 
 <!-- section 2d -->
 <section id="artist" class="artist">
   <h2>2D Gallery</h2>
 
-  <!-- grid utama  -->
+  <!-- grid utama -->
   <div class="grid">
     <a href="#img1" class="card">
       <img src="assets/images/gallery/Nova.jpg" alt="Nova">
@@ -198,7 +264,7 @@
   <!-- toggle -->
   <input type="checkbox" id="toggle-artist">
 
-  <!-- grid (show more) -->
+  <!-- grid(show more) -->
   <div class="artist-more">
 
     <div class="grid">
@@ -233,11 +299,16 @@
         <img src="assets/images/gallery/CharEkspresi.png" alt="Expression">
         <h3 class="text-gallery">Character Expression</h3>
       </a>
+
+      <a href="#img19" class="card">
+        <img src="assets/images/gallery/CongklakAdventure.png" alt="UI Design">
+        <h3 class="text-gallery">UI Design Congklak Adventure</h3>
+      </a>
     </div>
 
   </div>
 
- 
+  <!-- button show -->
   <label for="toggle-artist" class="read-more-btn">
     <span class="more">Show More</span>
     <span class="less">Show Less</span>
@@ -393,6 +464,11 @@
   <img src="assets/images/gallery/3dModularRumah.png">
 </div>
 
+<div id="img19" class="lightbox">
+  <a href="#artist" class="close">&times;</a>
+  <img src="assets/images/gallery/CongklakAdventure.png">
+</div>
+
 <!-- section experience -->
 <section id="experience" class="experience">
   <h2>Organizational & Event Experience</h2>
@@ -450,4 +526,3 @@
 
 </body>
 </html>
-
